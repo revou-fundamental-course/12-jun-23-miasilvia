@@ -9,14 +9,21 @@ header{
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
+   
+.InputSection {
+    /* display: flex;
+    flex-direction: column; */
+}
 #InputField {
     outline: none;
     font-size: 18px;
     border-radius: 3px;
     border: solid gray;
-    padding: 10px;
+    padding: 20px;
     width: 400px;
     height: 100px;
+    display: flex;
+    flex-direction: column;
     
    }
 label{
@@ -25,17 +32,14 @@ label{
 #InputField:focus{
     border: solid rgb(81, 79, 79);
 }
-button {
+section button {
     background-color: grey;
     color: white;
     border-radius: 2px;
     padding: 10px 20px;
     margin-top: 20px;
+    width: 100px;
 }
 button:hover {
 background-color: rgb(91, 87, 87);
-}
-.InputSection {
-    display: flex;
-    flex-direction: column;
 }
