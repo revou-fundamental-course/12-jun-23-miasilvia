@@ -18,14 +18,17 @@ header{
     outline: none;
     font-size: 18px;
     border-radius: 3px;
-    border: solid gray;
-    padding: 20px;
-    width: 400px;
     height: 100px;
     display: flex;
     flex-direction: column;
-    
+    padding: 50px;
    }
+textarea {
+    display: flex;
+    flex-direction: column;
+    border: solid gray;
+    width: 400px;
+}
 label{
     margin-top: 20px;
 }
