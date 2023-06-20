@@ -21,7 +21,7 @@ header{
     height: 100px;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    
    }
 textarea {
     display: flex;
