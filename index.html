@@ -21,13 +21,14 @@
             <label for="InputField">Celcius (&#176C)</label>
             <textarea type="text" id="Celcius" name="message" rows="8" cols="30"></textarea>
             <button value="hitung" onclick="hitungFehrentheit()">Konversi</button>
-            <label for="InputField">Fehrentheit(&#176F)</label>
+            <label for="InputField">Fehrentheit (&#176F)</label>
             <textarea name="message" rows="8" cols="30" id="Fehrentheit"></textarea>
             <button value="hitung" onclick="hitungCelcius()">Reverse</button>
             <label for="InputField">Cara Kalkulasi</label>
-            <textarea name="message" rows="8" cols="30" id="kalkulasi"></textarea>
-            <button value="reset" onclick="resetFields()">Reset</button>
-            <h5 id="rumus"> </h5>
+            <textarea name="message" rows="8" cols="30" id="kalkulasi" disabled></textarea>
+            <button value="reset" type="reset" onclick="resetFields()">Reset</button>
+            
+            <h5 name="message" rows="8" cols="80" id="rumus" disabled> </h5>
 
         </section>
     </div>

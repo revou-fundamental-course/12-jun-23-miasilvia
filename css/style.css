@@ -3,7 +3,7 @@ body{
     background-color: rgb(223, 230, 202);
 }
 header{
-    background-color: gray;
+    background-color: rgb(80, 132, 60);
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -59,7 +59,7 @@ div.fixed {
     bottom: 0;
     right: 0;
     width: 400px;
-    border: 3px solid #303030;
-    background-color: gray;
+    border: 3px solid #034924;
+    background-color: rgb(80, 132, 60);
   }
 
