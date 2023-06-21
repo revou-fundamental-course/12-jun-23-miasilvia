@@ -1,5 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(186, 151, 177);
 }
 header{
     background-color: gray;
@@ -31,6 +32,7 @@ textarea {
 }
 label{
     margin-top: 20px;
+    display: flex;
 }
 #InputField:focus{
     border: solid rgb(81, 79, 79);
