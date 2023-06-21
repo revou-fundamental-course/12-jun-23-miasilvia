@@ -11,39 +11,29 @@
 
 <body>
     <header>
-        <h1>Conversion Calculation with JavaScript</h1>
+        <h1>Conversion Calculation With Java Script</h1>
     </header>
-    <section class="InputSection" id="result2">
-        <span>Masukkann suhu derajat celsius (&#176C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan
-            hasil
-            konversi dalam bentuk Fehrentheit(F) </span>
-        <label for="InputField">Celcius (C)</label>
-        <textarea type="text" id="Celcius" name="message" rows="8" cols="30"></textarea>
-        <button value="hitung" onclick="hitungFehrentheit()">Konversi c ke f</button>
-        <button value="hitung" onclick="hitungCelcius()">Konversi f ke c</button>
-        <button value="reset" onclick="resetFields()">Reset</button>
-        <label for="InputField">Fehrentheit(&#176F)</label>
-        <textarea name="message" rows="8" cols="30" id="Fehrentheit"></textarea>
-        <label for="InputField">Cara Kalkulasi</label>
-        <textarea name="message" rows="8" cols="30" id="kalkulasi"></textarea>
+ <div id="row">
+        <section class="InputSection" id="result2">
+            <span>Masukkann suhu derajat celsius (&#176C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan
+                hasil
+                konversi dalam bentuk Fehrentheit(F) </span>
+            <label for="InputField">Masukkan angka Celcius (&#176C)</label>
+            <textarea type="text" id="Celcius" name="message" rows="8" cols="30"></textarea>
+            <button value="hitung" onclick="hitungFehrentheit()">Konversi &#176C ke F</button>
+            <label for="InputField">Masukkan angka Fehrentheit(&#176F)</label>
+            <textarea name="message" rows="8" cols="30" id="Fehrentheit"></textarea>
+            <button value="hitung" onclick="hitungCelcius()">Konversi F ke &#176C</button>
+            <label for="InputField">Cara Kalkulasi</label>
+            <textarea name="message" rows="8" cols="30" id="kalkulasi"></textarea>
+            <button value="reset" onclick="resetFields()">Reset</button>
+            <h5 id="rumus"> </h5>
 
-        <h5> Konversi Suhu dari Celcius (C) ke Fahrenheit (F)
-            <br>
-            F = (9/5) C + 32
-            <br>
-            F = suhu dalam skala Fahrenheit
-            <br>
-            C = suhu dalam skala Celcius</h5>
-        <h5> Konversi Suhu dari Fahrenheit (C) ke Celcius (F)
-            <br>
-            F = (5/9) *(F&#176 + 32)
-            <br>
-            F = suhu dalam skala Fahrenheit
-            <br>
-            C = suhu dalam skala Celcius
-        </h5>
-
-    </section>
+        </section>
+    </div>
+    <div class="fixed">
+        Mia Silvia - Conversion Calculation With Java Script
+    </div>
 
 </body>
 
