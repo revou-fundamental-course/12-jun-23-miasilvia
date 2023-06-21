@@ -11,9 +11,9 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 2px solid rgb(63, 50, 50);
    }
-div .row {
-    display: flex;
-  flex-wrap: wrap;
+.deskripsi {
+    text-align: center;
+  margin-top: 40px;
 }
 .InputSection {
     flex: 10%;
@@ -48,6 +48,7 @@ button {
     padding: 10px 20px;
     margin-top: 20px;
     width: 100px;
+    
 }
 button:hover {
 background-color: rgb(91, 87, 87);
